@@ -77,19 +77,22 @@ export default function Home() {
             marginTop: "25px",
           }}
         >
-          <button
-            style={{
-              background: "#ff3030",
-              color: "white",
-              border: "none",
-              borderRadius: "10px",
-              padding: "15px 25px",
-              fontSize: "16px",
-              fontWeight: "bold",
-            }}
-          >
-            Start Creating
-          </button>
+          <a
+  href="/create"
+  style={{
+    background: "#ff3030",
+    color: "white",
+    border: "none",
+    borderRadius: "10px",
+    padding: "15px 25px",
+    fontSize: "16px",
+    fontWeight: "bold",
+    textDecoration: "none",
+    display: "inline-block",
+  }}
+>
+  Start Creating
+</a>
 
           <button
             style={{
