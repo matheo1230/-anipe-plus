@@ -78,7 +78,8 @@ export default function CreatePage() {
             </p>
           </a>
 
-          <div
+          <a
+  href="/create/novel"
             style={{
               border: "1px solid #333",
               borderRadius: "16px",
@@ -93,7 +94,7 @@ display: "block",
             <p style={{ color: "#aaa", lineHeight: "1.5" }}>
               Write chapters and publish your novel.
             </p>
-          </div>
+          </a>
         </div>
       </section>
     </main>
