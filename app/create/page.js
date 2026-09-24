@@ -63,7 +63,8 @@ export default function CreatePage() {
             marginTop: "40px",
           }}
         >
-          <div
+          <a
+  href="/create/manga"
             style={{
               border: "1px solid #333",
               borderRadius: "16px",
@@ -75,7 +76,7 @@ export default function CreatePage() {
             <p style={{ color: "#aaa", lineHeight: "1.5" }}>
               Create chapters and publish your manga pages.
             </p>
-          </div>
+          </a>
 
           <div
             style={{
@@ -83,6 +84,9 @@ export default function CreatePage() {
               borderRadius: "16px",
               padding: "30px",
               background: "#111",
+              color: "white",
+textDecoration: "none",
+display: "block",
             }}
           >
             <h2>✍️ Novel</h2>
